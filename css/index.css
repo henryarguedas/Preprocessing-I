@@ -134,6 +134,44 @@ html,
 body {
   height: 100%;
 }
-.profile-pic {
-  width: 20%;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lexend Exa', sans-serif;
+}
+.main-header {
+  background: #d9d9d9;
+}
+.main-header .main-nav {
+  background: #ABEBD2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-header .main-nav a {
+  font-family: 'Lexend Exa', sans-serif;
+  text-decoration: none;
+}
+.main-header .profile-pic {
+  width: 25%;
+  border: 4px solid orange;
+}
+.main-header .header-image {
+  margin: 25px;
+}
+.main-header .top-btn {
+  font-family: 'Lexend Exa', sans-serif;
+}
+p {
+  font-family: 'Lexend Exa', sans-serif;
+}
+table {
+  font-family: 'Lexend Exa', sans-serif;
+}
+table .colored-row {
+  background: #ABEBD2;
+}
+.copywrite {
+  background: #9DCBBA;
 }
