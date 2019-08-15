@@ -175,3 +175,7 @@ table .colored-row {
 .copywrite {
   background: #9DCBBA;
 }
+.top-btn {
+  border-radius: 5px;
+  background: white;
+}

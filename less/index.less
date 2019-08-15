@@ -157,6 +157,15 @@ body {
 
 }
 
+.flexSpaceAroundAlignCenter() {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+
 // * {
 // 	font-family: 'Lexend Exa', sans-serif;
 
@@ -176,9 +185,7 @@ h4 {
 
 	.main-nav {
 		background: @backgroundColor;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
+		.flexSpaceAroundAlignCenter();
 
 		a {
 			font-family: @mainFont;
@@ -226,4 +233,9 @@ table {
 
 .copywrite {
 	background: #9DCBBA;
+}
+
+.top-btn {
+	border-radius: 5px;
+	background: white;
 }
